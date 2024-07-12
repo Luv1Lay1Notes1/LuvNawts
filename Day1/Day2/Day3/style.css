@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Corrected typo: should be 'border-box' */
+  font-family: "Playwrite CU", cursive;
+}
+
+body {
+  background: #f77efd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.message-box {
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background: #fff;
+  max-width: 90%; /* Adjusted width for responsiveness */
+  padding: 20px; /* Adjusted padding */
+}
+
+.message-box h2 {
+  font-size: 28px; /* Adjusted font size */
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+.rounded-button {
+  background-color: #ff84de;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Adjusted font size */
+  margin-top: 10px; /* Adjusted margin */
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.my-small-text {
+  font-size: 10px; /* Adjusted font size */
+  color: gray;
+}
+
+.my-big-text {
+  font-size: 14px; /* Adjusted font size */
+  color: gray;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .message-box {
+    padding: 15px;
+  }
+  .message-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .rounded-button {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .my-small-text {
+    font-size: 8px;
+  }
+  .my-big-text {
+    font-size: 12px;
+  }
+}

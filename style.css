@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+font-family: "Playwrite CU", cursive;
+}
+body{
+  background: #f77efd;
+}
+.message-box{
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0px  rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background: #fff;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+
+.message-box h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.rounded-button {
+  background-color: #ff84de; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 8px; /* Font size */
+  margin: 4px 2px; /* Margin between buttons */
+  cursor: pointer; /* Cursor pointer on hover */
+  border-radius: 12px; /* Rounded corners */
+}
+.my-small-text {
+  font-size: 12px;
+  color: gray;
+  /* Other styles as needed */
+}
+
